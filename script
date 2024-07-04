@@ -1,0 +1,6 @@
+sudo timedatectl set-timezone UTC
+sudo apt-get install git
+git clone https://github.com/lawrencesystems/graylog.git
+sudo apt-get install docker-compose
+sudo usermod -aG docker $USER
+cd graylog
